@@ -1,9 +1,10 @@
 # ArduinoProMini_IOShield
 
-Breakout board for Arduino Pro Mini with interface for NRF24L01+ and RFM69H wireless modules and breadboards and/or I²C connectors
+Quick prototyping breakout board for Arduino Pro Mini with interface for NRF24L01+ and RFM69H wireless modules and breadboards and/or I²C connectors
 
-This board is inspired by the Arduino "Nano IO Shields" available for cheap at aliexpress (search for "arduino nano nrf24l01 board", e.g. [here](https://www.aliexpress.com/item/Free-shipping-Nano-328P-IO-wireless-sensor-expansion-board-for-XBEE-and-NRF24L01-Socket-for-arduino/32298692903.html)), which provide breakout pins for each analog and digital pin (each with its own VCC+GND pins), a connector for an NRF24L01+ module and an XBee module. Furthermore, these boards have their own voltage regulators with a 5.5x2.1mm power jacks (for 6-12V input), so VCC for the output pins does not have to go through the arduino.
-As I don't have any use for the XBee socket, I simply broke off the header pins and instead taped a [tiny 5x11 pin breadboard](https://www.aliexpress.com/item/7Pcs-Mini-55-Points-Breadboard-Solderless-Prototype-Tie-point-For-Arduino-GM/32670910749.html) to the board, which I typically use to attach multiple I²C sensors. 
+## Inspiration
+This board is inspired by the Arduino "Nano IO Shields" available for cheap at aliexpress (search for "arduino nano nrf24l01 board", e.g. [here](https://www.aliexpress.com/item/Free-shipping-Nano-328P-IO-wireless-sensor-expansion-board-for-XBEE-and-NRF24L01-Socket-for-arduino/32298692903.html)), which provide breakout pins, a connector for an NRF24L01+ module and an XBee module. 
+As I don't have any use for the XBee socket, I simply broke off the header pins and instead taped a [tiny 5x11 pin breadboard](https://www.aliexpress.com/item/7Pcs-Mini-55-Points-Breadboard-Solderless-Prototype-Tie-point-For-Arduino-GM/32670910749.html) to the board. 
 
 These boards are perfect for quick prototyping for the MySensors project for several reasons:
 * you have the nrf24l01+ radio module already wired with their own voltage regulators and level shifters
@@ -14,4 +15,24 @@ These boards are perfect for quick prototyping for the MySensors project for sev
 
 The only drawback is that I use Pro Minis for most of my projects, so prototyping with a Nano means you are never testing the actual board in the prototype.
 
+## The Board
 
+This board provides 
+* each pin of the Arduino Pro Mini as a pin header with its own VCC and GND 
+* pads/connectors for a NRF24L01+ or a RFM69H wireless module (and solder pads for an XC6206 5V->3.3V regulator if required)
+* I²C connector (VCC, GND, SCL, SDA)
+* space for a tiny 55-pin mini breakout board or alternative three additional I²C breakout connections
+* solder pads for its own AMS1117 voltage regulator
+* ICSP connector to program the bootloader
+* drills for the Arduino large enough to fit PogoPins, too, and
+* the board outline and the holes are identical to the Arduino Uno, so Arduino holders can be used.
+
+!(Pro Mini IO shield for quick prototyping)[images/ArduinoProMini_IOShield_1.JPG]
+!(Pro Mini IO shield for quick prototyping)[images/ArduinoProMini_IOShield_2.JPG]
+!(Pro Mini IO shield for quick prototyping)[images/ArduinoProMini_IOShield_3.JPG]
+!(Pro Mini IO shield for quick prototyping)[images/ArduinoProMini_IOShield_4.JPG]
+!(SMD nrf24l01+ modules can be used with an adapter)[images/ArduinoProMini_IOShield_5.JPG]
+!(Pogo pins can be used for ICSP programming Pro Minis)[images/ArduinoProMini_IOShield_PogoPins1.JPG]
+!(Pogo pins can be used for ICSP programming Pro Minis)[images/ArduinoProMini_IOShield_PogoPins2.JPG]
+!(Pogo pins can be used for ICSP programming Pro Minis)[images/ArduinoProMini_IOShield_PogoPins3.JPG]
+!(Pogo pins can be used for ICSP programming Pro Minis)[images/ArduinoProMini_IOShield_PogoPins4.JPG]
