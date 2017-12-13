@@ -27,12 +27,12 @@ This board provides
 * drills for the Arduino large enough to fit PogoPins, too, and
 * the board outline and the holes are identical to the Arduino Uno, so Arduino holders can be used.
 
-!(Pro Mini IO shield for quick prototyping)[images/ArduinoProMini_IOShield_1.JPG]
-!(Pro Mini IO shield for quick prototyping)[images/ArduinoProMini_IOShield_2.JPG]
-!(Pro Mini IO shield for quick prototyping)[images/ArduinoProMini_IOShield_3.JPG]
-!(Pro Mini IO shield for quick prototyping)[images/ArduinoProMini_IOShield_4.JPG]
-!(SMD nrf24l01+ modules can be used with an adapter)[images/ArduinoProMini_IOShield_5.JPG]
-!(Pogo pins can be used for ICSP programming Pro Minis)[images/ArduinoProMini_IOShield_PogoPins1.JPG]
-!(Pogo pins can be used for ICSP programming Pro Minis)[images/ArduinoProMini_IOShield_PogoPins2.JPG]
-!(Pogo pins can be used for ICSP programming Pro Minis)[images/ArduinoProMini_IOShield_PogoPins3.JPG]
-!(Pogo pins can be used for ICSP programming Pro Minis)[images/ArduinoProMini_IOShield_PogoPins4.JPG]
+![Pro Mini IO shield for quick prototyping](images/ArduinoProMini_IOShield_1.JPG)
+![Pro Mini IO shield for quick prototyping](images/ArduinoProMini_IOShield_2.JPG)
+![Pro Mini IO shield for quick prototyping](images/ArduinoProMini_IOShield_3.JPG)
+![Pro Mini IO shield for quick prototyping](images/ArduinoProMini_IOShield_4.JPG)
+![SMD nrf24l01+ modules can be used with an adapter](images/ArduinoProMini_IOShield_5.JPG)
+![Pogo pins can be used for ICSP programming Pro Minis](images/ArduinoProMini_IOShield_PogoPins1.JPG)
+![Pogo pins can be used for ICSP programming Pro Minis](images/ArduinoProMini_IOShield_PogoPins2.JPG)
+![Pogo pins can be used for ICSP programming Pro Minis](images/ArduinoProMini_IOShield_PogoPins3.JPG)
+![Pogo pins can be used for ICSP programming Pro Minis](images/ArduinoProMini_IOShield_PogoPins4.JPG)
